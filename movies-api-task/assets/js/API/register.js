@@ -91,15 +91,13 @@ form1?.addEventListener("submit", (e) => {
       emailUse.classList.replace("d-none", "d-block");
     }
   });
-  const passwordPattern = /^(?=.*[A-Z])(?=.*\d).{8}$/;
+  const passwordPattern = "" /* /^(?=.*[A-Z])(?=.*\d).{8}$/ */;
 
   const namePattern = /^[a-zA-Z]+$/;
   const fulPat = document.querySelector(".fulPatt");
   const passPatt = document.querySelector(".passPatt");
   if (regusernameinp.value === "") {
-    console.log("salam");
     nameRequired.classList.replace("d-none", "d-block");
-    console.log("laman");
   } else {
     nameRequired.classList.replace("d-block", "d-none");
   }
@@ -139,7 +137,7 @@ form1?.addEventListener("submit", (e) => {
     passPatt.classList.replace("d-block", "d-none");
     if (password1.value === confirmPass.value) {
       window.location.replace("login.html");
-      console.log("salam");
+    
     } else {
       window.alert("password with confirm password not same");
     }
