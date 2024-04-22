@@ -80,97 +80,25 @@
   ],
   "users": [
     {
-      "id": "fdde9b33-8b05-4202-87c2-c36e03dd7515",
-      "name1": "Leman",
-      "fullname1": "Leman",
-      "password1": "123",
-      "email1": "leman@gmail.com",
-      "confirmPass": "123",
-      "islogged": true,
-      "admin": true,
-      "favorites": []
-    },
-    {
-      "id": "1d11228b-83f5-48f6-a757-785e4801f7b0",
-      "name1": "Ramin",
-      "fullname1": "Israfilli",
-      "password1": "123",
-      "email1": "raminisrafilli@gmail.com",
-      "confirmPass": "123",
-      "islogged": true,
-      "admin": false,
-      "favorites": [
-        {
-          "id": 1713758760075,
-          "moviID": "3"
-        },
-        {
-          "id": 1713758774058,
-          "moviID": "2"
-        },
-        {
-          "id": 1713758777491,
-          "moviID": "2"
-        },
-        {
-          "id": 1713758849748,
-          "moviID": "2"
-        }
-      ]
-    },
-    {
-      "id": "bbf27ec1-8f91-4c62-b01e-bd0538adef90",
-      "name1": "Nermin",
-      "fullname1": "Memmedova",
+      "id": "e15107ca-9fad-4ad3-96d1-a6e0de648691",
+      "name1": "Laman",
+      "fullname1": "Mustafazada",
       "password1": "123",
       "email1": "l@mail.ru",
       "confirmPass": "123",
       "islogged": true,
+      "admin": false,
+      "favorites": []
+    },
+    {
+      "id": "1d8873e7-a114-432d-b4a5-2a2eb68dfaaf",
+      "name1": "Narmin",
+      "fullname1": "qurbanova",
+      "password1": "narmin123",
+      "email1": "nar@mail.ru",
+      "confirmPass": "narmin123",
+      "islogged": true,
       "admin": true,
-      "favorites": []
-    },
-    {
-      "id": "71768808-562e-44c2-8ade-d5ca65c2710c",
-      "name1": "Ramin",
-      "fullname1": "Israfilli",
-      "password1": "123",
-      "email1": "raminisrafilli@gmail.com",
-      "confirmPass": "123",
-      "islogged": true,
-      "admin": false,
-      "favorites": []
-    },
-    {
-      "id": "7694f5c9-56e7-442b-b5b1-608337d734eb",
-      "name1": "RAmin",
-      "fullname1": "dsfds",
-      "password1": "dsfds@dsf/f",
-      "email1": "Sw@DF.FD",
-      "confirmPass": "fdfdsf",
-      "islogged": true,
-      "admin": false,
-      "favorites": []
-    },
-    {
-      "id": "b79aa1bc-6b2f-49c7-a52a-ae7b146b46ee",
-      "name1": "Ramin",
-      "fullname1": "dsfd",
-      "password1": "d",
-      "email1": "fds@gmail.com",
-      "confirmPass": "d",
-      "islogged": true,
-      "admin": false,
-      "favorites": []
-    },
-    {
-      "id": "08f45871-d240-4505-93c1-2ef7a496bd1f",
-      "name1": "fsdf",
-      "fullname1": "fdsgd",
-      "password1": "s@dv ",
-      "email1": "gdsgsd@vcb.jj",
-      "confirmPass": "bcvb",
-      "islogged": true,
-      "admin": false,
       "favorites": []
     }
   ]

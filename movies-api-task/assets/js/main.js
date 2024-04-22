@@ -17,24 +17,23 @@ const moviesModalIframe = document.querySelector(".moviesModal iframe");
 let links = document.querySelector(".links")
 let containerSelect = document.querySelector(".sort-by-name")
 let  sortByFav = document.querySelector(".sort-by-fav")
+
+
+
+let regusernameinp = document.querySelector(".regusernameinp")
 const localData = JSON.parse(localStorage.getItem("user"));
-
-
-
-console.log(window.location);
-
-
+console.log(localData);
 if (localData) {
   links.innerHTML = `
   <li><a href="index.html">Home</a></li>
   ${localData.admin ? `<li class="add"><a  href="add.html">ADD</a></li>` : ""}
- ${localData.admin ? `<li class="adminLi"><span>welcome</span>${localData.name1}<span>admin <i class="fa-solid fa-lock"></i></span></li>` : `<li>${localData.name1}</li>`} 
+ ${localData.admin ? `<li class="adminLi"><span>welcome</span> ${localData.name1}<span>admin <i class="fa-solid fa-lock"></i></span></li>` : `<li>${localData.name1}</li>`} 
   <li><i class="fa-solid fa-right-to-bracket"></i></li>
   `
   !localData.admin ? containerSelect.innerHTML += `<select name="" id="" class="form-select w-25 sort-by-fav">
 <option value=""selected disabled >Filter Favorites/All</option>
-<option value="">All</option>
-<option value="">Favorites</option>
+<option value="all">All</option>
+<option value="favorites">Favorites</option>
 </select>` : ""
   let toBracket = document.querySelector(".fa-right-to-bracket")
   toBracket?.addEventListener("click", function () {
