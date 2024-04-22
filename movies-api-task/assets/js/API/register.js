@@ -91,7 +91,7 @@ form1?.addEventListener("submit", (e) => {
       emailUse.classList.replace("d-none", "d-block");
     }
   });
-  const passwordPattern = "" /* /^(?=.*[A-Z])(?=.*\d).{8}$/ */;
+  const passwordPattern = /^(?=.*[A-Z])(?=.*\d).{8}$/;
 
   const namePattern = /^[a-zA-Z]+$/;
   const fulPat = document.querySelector(".fulPatt");
@@ -168,14 +168,12 @@ logForm?.addEventListener("submit", function (e) {
     passRequired.classList.replace("d-block", "d-none");
   }
   getAll(endpoints.user).then((res) => {
-    console.log("slaam");
     res.data.forEach((user) => {
-      if (user.name1 === logInp.value || user.password1 === logPass.value) {
-        console.log("slaam");
+      if (user.name1 === logInp.value &&  user.password1 === logPass.value) {
         localStorage.setItem("user", JSON.stringify(user));
         window.location.replace("index.html");
       } else {
-        alert("Please enter");
+      
         Swal.fire({
           icon: "error",
           title: "login ve ya parol sehvdir",

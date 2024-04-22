@@ -46,14 +46,14 @@
         <h2>Add New Movie</h2>
         <form action="" class="d-flex flex-column gap-2 ">
           <input type="text" placeholder="Update movie title" class="add-title" />
-          <input type="url" placeholder="Update movie poster" class="add-poster" />
-          <input type="text" placeholder="Update movie trailer URL" class="add-trailer" />
+          <input type="file" placeholder="Update movie poster" class="add-poster" />
+          <input type="url" placeholder="Update movie trailer URL" class="add-trailer" />
           <input type="text" placeholder="Update movie genre" class="add-genre" />
           <input type="text" placeholder="Update movie release year" class="add-year" />
-          <input type="text" placeholder="Update movie age restriction" class="add-age" />
+          <input type="number" max="100" min="0" placeholder="Update movie age restriction" class="add-age" />
           <input type="text" placeholder="Update movie counrty" class="add-counrty" />
-          <input type="text" placeholder="Update movie description" class="add-description" />
-          <textarea name="" id="" cols="30" rows="10" placeholder="update movie description"></textarea>
+          <input type="text" minlength="0" maxlength="100" placeholder="Update movie description" class="add-description" />
+          <textarea name=""  minlength="0" maxlength="100" id="" cols="30" rows="10" placeholder="update movie description"></textarea>
           <button type="submit" class="form-2">Add button</button>
         </form>
       </div>

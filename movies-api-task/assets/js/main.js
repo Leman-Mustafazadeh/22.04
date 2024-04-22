@@ -380,3 +380,7 @@ moviesClose?.addEventListener("click", () => {
   moviesModal.style.display = "none";
   moviesModalIframe.src = "";
 });
+
+
+
+
