@@ -1,0 +1,210 @@
+
+.form1{
+    width: 30%;
+    box-shadow: #f6f5f7;
+    margin: 20px auto;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+     border: 1px solid rgb(149, 24, 57);
+     padding: 50px;
+     border-radius: 25px;
+     background-color:white;
+     position: relative;
+}
+.fa-sign-out{
+    cursor: pointer;
+}
+.form1 span{
+    color: red;
+}
+.form1 label,.form2 label{
+    width: 300px;  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: red;
+}
+.form1  input{
+  border-color:rgb(238, 242, 242);
+  border-radius: 5px;
+  padding: 5px;
+  width:100% ;
+  outline: none;
+}
+.form1  input::placeholder{
+    font-family: sans-serif;
+}
+
+.form1 button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.form1 i{
+    right: 5px;
+    font-size: 36px;
+    position: absolute;
+    top: 3px;
+    cursor: pointer;
+}
+.sign-up {
+    top: 0;
+    left: 0;
+    background-color:white;
+    margin-top: 30px;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    z-index: 100;
+}
+.sign-in {
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.368);
+    position: fixed;
+    width: 100%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    z-index: 100;
+}
+.logFrom{
+    width: 700px;
+    box-shadow: #f6f5f7;
+    margin: 20px auto;
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+     border: 1px solid rgb(149, 24, 57);
+     padding: 50px;
+     border-radius: 25px;
+     background-color:white;
+     position: relative;
+     top: 100px;
+}
+.btn-outline-danger{
+    position: relative!important;
+    z-index: 997!important;
+}
+
+.fa-heart{
+    position: relative!important;
+    z-index: -1!important;
+}
+.logFrom label input{
+  border-color: rgb(189, 128, 74);
+  padding: 5px;
+}
+.logFrom span{
+    color: red;
+   padding: 0;
+   margin: 0;
+}
+.logFrom button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.logFrom label{
+    position: relative;
+}
+.logFrom i{
+    right: 10px;
+    top: 10px;
+    position: absolute;
+    cursor: pointer;
+}
+.sort-by-name input{
+    padding: 5px;
+    border-radius: 5px;
+    border-color: rgb(246, 249, 249);
+    width: 300px;
+}
+#movies{
+    padding: 20px 0px;
+}
+.moviesModal{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000000;
+    display: none;
+}
+.moviesModal .moviesClose{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.482);
+    z-index: -1;
+}
+.moviesModal .moviesClose iframe{
+    position: relative;
+    z-index: 100;
+}
+
+.boxAdmin{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: start;
+}
+.chekAdmin{
+    width: fit-content !important;
+}
+
+.logForm label input {
+    border-color: rgb(238, 242, 242);
+    border-radius: 5px;
+    padding: 5px;
+    width: 100%;
+    outline: none;
+}
+
+
+.adminLi{
+    color: white;
+    display: flex;
+    align-items: center;
+    border-left: 1px solid white;
+    padding-left: 5px;
+    align-items: center;
+    height: 20px;
+    gap: 5px;
+    font-size: 17px;
+}
+
+.fa-right-to-bracket{
+    color: white;
+    font-size: 23px;
+    cursor: pointer;
+}
+.links{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.links li {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+}

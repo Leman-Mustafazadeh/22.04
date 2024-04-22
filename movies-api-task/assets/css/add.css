@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.addMovie{
+    margin-top: 150px;
+    text-align: center;
+}
+.addMovie form{
+    width: 50%;
+  margin: 0 auto
+}
+.addMovie form input{
+    width: 100%;
+    padding: 3px;
+}
+.addMovie form textarea{
+    width: 100%;
+}

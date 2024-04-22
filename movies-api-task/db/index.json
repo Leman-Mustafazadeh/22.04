@@ -1,0 +1,177 @@
+{
+  "movies": [
+    {
+      "title": "A Shrek 1 ",
+      "genre": "animation",
+      "country": "USA",
+      "director": "Andrew Adamson",
+      "ageRestriction": "6",
+      "poster": "https://i.ebayimg.com/images/g/eqkAAOSwY3tbOvT5/s-l1600.jpg",
+      "trailerURL": "https://www.youtube.com/embed/HF3fPWi65J8?si",
+      "description": "In a bid to get his land back, Shrek agrees to retrieve Princess Fiona for the fairytale-hating Lord Farquaad of Duloc, but falls in love with her on the way.",
+      "id": "1"
+    },
+    {
+      "title": "B Shrek 2",
+      "genre": "animation",
+      "country": "USA",
+      "director": "Andrew Adamson",
+      "ageRestriction": "3",
+      "poster": "https://m.media-amazon.com/images/I/51S092xuYYS._AC_UF894,1000_QL80_.jpg",
+      "trailerURL": "https://www.youtube.com/embed/_SK1fXvw6Gg?si",
+      "description": "In a bid to get his land back, Shrek agrees to retrieve Princess Fiona for the fairytale-hating Lord Farquaad of Duloc, but falls in love with her on the way. UPDATED",
+      "id": "2"
+    },
+    {
+      "title": "Spider Man",
+      "genre": "animation",
+      "country": "USA",
+      "director": "Andrew Adamson",
+      "ageRestriction": "3",
+      "poster": "https://media.very.co.uk/i/very/NN6VF_SQ1_0000000099_N_A_MDf?$550x733_standard$",
+      "trailerURL": "https://www.youtube.com/embed/F478PvRt74Y?si",
+      "description": "In a bid to get his land back, Shrek agrees to retrieve Princess Fiona for the fairytale-hating Lord Farquaad of Duloc, but falls in love with her on the way. UPDATED",
+      "id": "3"
+    },
+    {
+      "title": "Kung Fu Panda",
+      "genre": "animation",
+      "country": "USA",
+      "director": "Andrew Adamson",
+      "ageRestriction": "3",
+      "poster": "https://static1.colliderimages.com/wordpress/wp-content/uploads/2023/12/kp4_payoff1sheet27_green_rgb_1.jpg?q=50&fit=contain&w=1140&h=&dpr=1.5",
+      "trailerURL": "https://www.youtube.com/embed/_inKs4eeHiI?si",
+      "description": "In a bid to get his land back, Shrek agrees to retrieve Princess Fiona for the fairytale-hating Lord Farquaad of Duloc, but falls in love with her on the way. UPDATED",
+      "id": "4"
+    },
+    {
+      "id": "ad7f",
+      "title": "Nu pogodi",
+      "poster": "https://www.youtube.com/results?search_query=nupakadi",
+      "trailer": "nooopooqodii",
+      "genre": "cartoon",
+      "country": "usa",
+      "ageRestriction": "100",
+      "trailerURL": "nooopooqodii",
+      "description": "lrek wjxdbnasijdca"
+    }
+  ],
+  "genres": [
+    {
+      "id": "1",
+      "name": "animation"
+    },
+    {
+      "id": "2",
+      "name": "drama"
+    },
+    {
+      "id": "3",
+      "name": "comedy"
+    },
+    {
+      "id": "4",
+      "name": "horror"
+    },
+    {
+      "id": "5",
+      "name": "fantasy"
+    }
+  ],
+  "users": [
+    {
+      "id": "fdde9b33-8b05-4202-87c2-c36e03dd7515",
+      "name1": "Leman",
+      "fullname1": "Leman",
+      "password1": "123",
+      "email1": "leman@gmail.com",
+      "confirmPass": "123",
+      "islogged": true,
+      "admin": true,
+      "favorites": []
+    },
+    {
+      "id": "1d11228b-83f5-48f6-a757-785e4801f7b0",
+      "name1": "Ramin",
+      "fullname1": "Israfilli",
+      "password1": "123",
+      "email1": "raminisrafilli@gmail.com",
+      "confirmPass": "123",
+      "islogged": true,
+      "admin": false,
+      "favorites": [
+        {
+          "id": 1713758760075,
+          "moviID": "3"
+        },
+        {
+          "id": 1713758774058,
+          "moviID": "2"
+        },
+        {
+          "id": 1713758777491,
+          "moviID": "2"
+        },
+        {
+          "id": 1713758849748,
+          "moviID": "2"
+        }
+      ]
+    },
+    {
+      "id": "bbf27ec1-8f91-4c62-b01e-bd0538adef90",
+      "name1": "Nermin",
+      "fullname1": "Memmedova",
+      "password1": "123",
+      "email1": "l@mail.ru",
+      "confirmPass": "123",
+      "islogged": true,
+      "admin": true,
+      "favorites": []
+    },
+    {
+      "id": "71768808-562e-44c2-8ade-d5ca65c2710c",
+      "name1": "Ramin",
+      "fullname1": "Israfilli",
+      "password1": "123",
+      "email1": "raminisrafilli@gmail.com",
+      "confirmPass": "123",
+      "islogged": true,
+      "admin": false,
+      "favorites": []
+    },
+    {
+      "id": "7694f5c9-56e7-442b-b5b1-608337d734eb",
+      "name1": "RAmin",
+      "fullname1": "dsfds",
+      "password1": "dsfds@dsf/f",
+      "email1": "Sw@DF.FD",
+      "confirmPass": "fdfdsf",
+      "islogged": true,
+      "admin": false,
+      "favorites": []
+    },
+    {
+      "id": "b79aa1bc-6b2f-49c7-a52a-ae7b146b46ee",
+      "name1": "Ramin",
+      "fullname1": "dsfd",
+      "password1": "d",
+      "email1": "fds@gmail.com",
+      "confirmPass": "d",
+      "islogged": true,
+      "admin": false,
+      "favorites": []
+    },
+    {
+      "id": "08f45871-d240-4505-93c1-2ef7a496bd1f",
+      "name1": "fsdf",
+      "fullname1": "fdsgd",
+      "password1": "s@dv ",
+      "email1": "gdsgsd@vcb.jj",
+      "confirmPass": "bcvb",
+      "islogged": true,
+      "admin": false,
+      "favorites": []
+    }
+  ]
+}
