@@ -43,3 +43,42 @@ poster?.addEventListener("change", () => {
     }
   }
 });
+
+// drop
+
+const dropZone = document.getElementById("drop-zone");
+const posterInput = document.getElementById("poster");
+
+dropZone.addEventListener("dragover", (e) => {
+  e.preventDefault();
+  dropZone.classList.add("drag-over");
+});
+
+dropZone.addEventListener("dragleave", () => {
+  dropZone.classList.remove("drag-over");
+});
+dropZone.addEventListener("drop", (e) => {
+  e.preventDefault();
+  const file = e.dataTransfer.files[0];
+  if (file && file.type.startsWith("image/")) {
+    displayImage(file);
+  }
+  dropZone.classList.remove("drag-over");
+});
+posterInput.addEventListener("change", (e) => {
+  const file = e.target.files[0];
+  if (file && file.type.startsWith("image/")) {
+    displayImage(file);
+  }
+});
+function displayImage(file) {
+  const reader = new FileReader();
+  reader.onload = function () {
+    dropZone.style.backgroundImage = `url('${reader.result}')`;
+  };
+  reader.readAsDataURL(file);
+}
+document.getElementById("movie-form").addEventListener("submit", (e) => {
+  e.preventDefault();
+  const formData = new FormData(e.target);
+});
